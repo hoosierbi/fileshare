@@ -13,7 +13,6 @@
     "tables": [
       {
         "name": "capacities",
-        "lineageTag": "325f008b-406b-4069-8752-b8b9f187e4da",
         "sourceLineageTag": "[dbo].[capacities]",
         "columns": [
           {
@@ -21,7 +20,6 @@
             "dataType": "string",
             "sourceColumn": "capacityId",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "4fdfbfb0-0e4d-4829-b37d-d6b294d152e4",
             "sourceLineageTag": "capacityId",
             "summarizeBy": "none",
             "annotations": [
@@ -37,7 +35,6 @@
             "sourceColumn": "state",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "f1c8d9ba-62f5-43cd-a0cd-caba15300956",
             "sourceLineageTag": "state",
             "summarizeBy": "sum",
             "annotations": [
@@ -53,7 +50,6 @@
             "sourceColumn": "source",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "ea9869cb-1c23-4d78-b6b7-2e2c24da18fe",
             "sourceLineageTag": "source",
             "summarizeBy": "sum",
             "annotations": [
@@ -68,7 +64,6 @@
             "dataType": "string",
             "sourceColumn": "capacityPlan",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "fd49dcc2-1dd5-4161-a90f-c81574193580",
             "sourceLineageTag": "capacityPlan",
             "summarizeBy": "none",
             "annotations": [
@@ -84,7 +79,6 @@
             "sourceColumn": "capacityNumberOfVCores",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "bf289afb-44c4-4417-8486-6576a74f8ff2",
             "sourceLineageTag": "capacityNumberOfVCores",
             "summarizeBy": "sum",
             "annotations": [
@@ -100,7 +94,6 @@
             "sourceColumn": "capacityMemoryInGB",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "4bbeaa0c-7dbf-474e-bb82-9ca0be426f37",
             "sourceLineageTag": "capacityMemoryInGB",
             "summarizeBy": "sum",
             "annotations": [
@@ -115,7 +108,6 @@
             "dataType": "string",
             "sourceColumn": "o365AddonId",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "380c14b0-eec1-4644-a26b-87121a075e9e",
             "sourceLineageTag": "o365AddonId",
             "summarizeBy": "none",
             "annotations": [
@@ -131,7 +123,6 @@
             "sourceColumn": "mode",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "8b6e2ff9-dbce-4534-8cbb-0a0da215d02e",
             "sourceLineageTag": "mode",
             "summarizeBy": "sum",
             "annotations": [
@@ -146,7 +137,6 @@
             "dataType": "string",
             "sourceColumn": "region",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "a82e5999-e2ab-4bad-b688-f558e4d4a7cc",
             "sourceLineageTag": "region",
             "summarizeBy": "none",
             "annotations": [
@@ -161,7 +151,6 @@
             "dataType": "string",
             "sourceColumn": "Capacity_Name",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "79f2e223-89d5-4f7c-84ad-c20f25edcab1",
             "sourceLineageTag": "Capacity_Name",
             "summarizeBy": "none",
             "annotations": [
@@ -176,7 +165,6 @@
             "dataType": "string",
             "sourceColumn": "sku",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "403d7831-7268-4083-b540-456cffb2d6a8",
             "sourceLineageTag": "sku",
             "summarizeBy": "none",
             "annotations": [
@@ -192,7 +180,6 @@
             "sourceColumn": "creationDate",
             "formatString": "General Date",
             "sourceProviderType": "datetime2",
-            "lineageTag": "d9e900db-5680-43f5-9bf7-830bb99864a3",
             "sourceLineageTag": "creationDate",
             "summarizeBy": "none",
             "annotations": [
@@ -207,7 +194,6 @@
             "dataType": "string",
             "sourceColumn": "Owners",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "51c37e14-660a-460b-b8bc-4e8b4bccdf02",
             "sourceLineageTag": "Owners",
             "summarizeBy": "none",
             "annotations": [
@@ -223,7 +209,6 @@
             "sourceColumn": "CUperSecond",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "f7a2daa9-e421-4c94-8ec7-a2fe33f712fd",
             "sourceLineageTag": "CUperSecond",
             "summarizeBy": "sum",
             "annotations": [
@@ -239,7 +224,6 @@
             "sourceColumn": "CUperHour",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "565fa152-429e-46ae-8ae0-04cac0fc8a0a",
             "sourceLineageTag": "CUperHour",
             "summarizeBy": "sum",
             "annotations": [
@@ -271,7 +255,6 @@
       },
       {
         "name": "items",
-        "lineageTag": "c90647b8-2b25-4ad3-aef6-5ec5e81ea014",
         "sourceLineageTag": "[dbo].[items]",
         "columns": [
           {
@@ -279,7 +262,6 @@
             "dataType": "string",
             "sourceColumn": "capacityId",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "d3066e0d-bcaa-4dae-b257-860ecb1ed24c",
             "sourceLineageTag": "capacityId",
             "summarizeBy": "none",
             "annotations": [
@@ -294,7 +276,6 @@
             "dataType": "string",
             "sourceColumn": "ItemId",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "5e181ba9-0953-48ef-8c99-09f8465b83bb",
             "sourceLineageTag": "ItemId",
             "summarizeBy": "none",
             "annotations": [
@@ -309,7 +290,6 @@
             "dataType": "string",
             "sourceColumn": "ItemKind",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "dc1a1111-8a93-4427-a56c-7f0729c5e555",
             "sourceLineageTag": "ItemKind",
             "summarizeBy": "none",
             "annotations": [
@@ -324,7 +304,6 @@
             "dataType": "string",
             "sourceColumn": "ItemName",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "e702a6b7-a678-4561-b24c-2b246dc3f54a",
             "sourceLineageTag": "ItemName",
             "summarizeBy": "none",
             "annotations": [
@@ -339,7 +318,6 @@
             "dataType": "string",
             "sourceColumn": "dcount_Identity",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "dbb28317-f1e7-463a-ac86-7945de5570c8",
             "sourceLineageTag": "dcount_Identity",
             "summarizeBy": "none",
             "annotations": [
@@ -355,7 +333,6 @@
             "sourceColumn": "Timestamp",
             "formatString": "General Date",
             "sourceProviderType": "datetime2",
-            "lineageTag": "327e9461-0876-4e0d-b860-82bb6b847ee8",
             "sourceLineageTag": "Timestamp",
             "summarizeBy": "none",
             "annotations": [
@@ -370,7 +347,6 @@
             "dataType": "string",
             "sourceColumn": "WorkspaceId",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "5d084cd1-0915-4b1d-9f4e-c391852343b5",
             "sourceLineageTag": "WorkspaceId",
             "summarizeBy": "none",
             "annotations": [
@@ -385,7 +361,6 @@
             "dataType": "string",
             "sourceColumn": "WorkspaceName",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "ee821934-5206-4b79-950c-e25437d0f044",
             "sourceLineageTag": "WorkspaceName",
             "summarizeBy": "none",
             "annotations": [
@@ -400,7 +375,6 @@
             "dataType": "string",
             "sourceColumn": "Item",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "41ce4255-dd1b-40b7-93a4-e477a9d7d460",
             "sourceLineageTag": "Item",
             "summarizeBy": "none",
             "annotations": [
@@ -415,7 +389,6 @@
             "dataType": "string",
             "sourceColumn": "Billable_type",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "9a602850-0d34-490f-94e6-02732a9b74c7",
             "sourceLineageTag": "Billable_type",
             "summarizeBy": "none",
             "annotations": [
@@ -430,7 +403,6 @@
             "dataType": "string",
             "sourceColumn": "Key",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "8069e329-225b-4433-af7b-39123204084d",
             "sourceLineageTag": "Key",
             "summarizeBy": "none",
             "annotations": [
@@ -445,7 +417,6 @@
             "dataType": "string",
             "sourceColumn": "IsVirtualArtifactName",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "11f48dfc-be4e-4150-8060-faf3d829e377",
             "sourceLineageTag": "IsVirtualArtifactName",
             "summarizeBy": "none",
             "annotations": [
@@ -460,7 +431,6 @@
             "dataType": "string",
             "sourceColumn": "IsVirtualWorkspaceName",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "1c3f2aa6-7605-4172-b452-c1c179b17053",
             "sourceLineageTag": "IsVirtualWorkspaceName",
             "summarizeBy": "none",
             "annotations": [
@@ -475,7 +445,6 @@
             "dataType": "string",
             "sourceColumn": "IsVirtualArtifactStatus",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "ad8b6907-4e73-4a2c-9ea7-098fe2b22d2c",
             "sourceLineageTag": "IsVirtualArtifactStatus",
             "summarizeBy": "none",
             "annotations": [
@@ -490,7 +459,6 @@
             "dataType": "string",
             "sourceColumn": "IsVirtualWorkspaceStatus",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "34cce0ff-440d-4810-aa92-b5e6eba6a62e",
             "sourceLineageTag": "IsVirtualWorkspaceStatus",
             "summarizeBy": "none",
             "annotations": [
@@ -522,7 +490,6 @@
       },
       {
         "name": "usage",
-        "lineageTag": "4f97419f-f325-4c2b-8b2f-025239ce67b6",
         "sourceLineageTag": "[dbo].[usage]",
         "columns": [
           {
@@ -531,7 +498,6 @@
             "sourceColumn": "DateTime",
             "formatString": "General Date",
             "sourceProviderType": "datetime2",
-            "lineageTag": "1306994d-f8f2-4a18-b51b-d0a6265fbad5",
             "sourceLineageTag": "DateTime",
             "summarizeBy": "none",
             "annotations": [
@@ -547,7 +513,6 @@
             "sourceColumn": "Date",
             "formatString": "General Date",
             "sourceProviderType": "datetime2",
-            "lineageTag": "a9d557bc-9df3-4521-b232-081470bc8e9f",
             "sourceLineageTag": "Date",
             "summarizeBy": "none",
             "annotations": [
@@ -562,7 +527,6 @@
             "dataType": "string",
             "sourceColumn": "PremiumCapacityId",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "93446cdf-8f7f-4de4-b9df-ad4aa5f276d3",
             "sourceLineageTag": "PremiumCapacityId",
             "summarizeBy": "none",
             "annotations": [
@@ -577,7 +541,6 @@
             "dataType": "string",
             "sourceColumn": "ItemId",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "42e6657a-e707-433e-89ce-c6899b8c22c1",
             "sourceLineageTag": "ItemId",
             "summarizeBy": "none",
             "annotations": [
@@ -592,7 +555,6 @@
             "dataType": "string",
             "sourceColumn": "OperationName",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "ae89aa52-6c95-4801-bd74-4039225e34d2",
             "sourceLineageTag": "OperationName",
             "summarizeBy": "none",
             "annotations": [
@@ -607,7 +569,6 @@
             "dataType": "double",
             "sourceColumn": "sum_CU",
             "sourceProviderType": "float",
-            "lineageTag": "4c071031-84d7-4be7-9471-de386c441fa3",
             "sourceLineageTag": "sum_CU",
             "summarizeBy": "sum",
             "annotations": [
@@ -626,7 +587,6 @@
             "dataType": "double",
             "sourceColumn": "sum_duration",
             "sourceProviderType": "float",
-            "lineageTag": "3f9f9100-b755-461d-9dae-aae32546d661",
             "sourceLineageTag": "sum_duration",
             "summarizeBy": "sum",
             "annotations": [
@@ -646,7 +606,6 @@
             "sourceColumn": "count_operations",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "cce8799f-45a0-47cb-8e7c-f4dd6c381357",
             "sourceLineageTag": "count_operations",
             "summarizeBy": "sum",
             "annotations": [
@@ -662,7 +621,6 @@
             "sourceColumn": "count_users",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "087933f3-1f03-4414-8f29-f0f6bb6de864",
             "sourceLineageTag": "count_users",
             "summarizeBy": "sum",
             "annotations": [
@@ -677,7 +635,6 @@
             "dataType": "double",
             "sourceColumn": "percentile_DurationMs_50",
             "sourceProviderType": "float",
-            "lineageTag": "99e56567-f05b-422f-b8b2-6e41d4112ff8",
             "sourceLineageTag": "percentile_DurationMs_50",
             "summarizeBy": "sum",
             "annotations": [
@@ -696,7 +653,6 @@
             "dataType": "double",
             "sourceColumn": "percentile_DurationMs_90",
             "sourceProviderType": "float",
-            "lineageTag": "898cf926-1246-4cc7-b75a-71499281f0ce",
             "sourceLineageTag": "percentile_DurationMs_90",
             "summarizeBy": "sum",
             "annotations": [
@@ -715,7 +671,6 @@
             "dataType": "double",
             "sourceColumn": "avg_DurationMS",
             "sourceProviderType": "float",
-            "lineageTag": "2cf8f323-f08a-4a38-91df-e944c82f6925",
             "sourceLineageTag": "avg_DurationMS",
             "summarizeBy": "sum",
             "annotations": [
@@ -734,7 +689,6 @@
             "dataType": "string",
             "sourceColumn": "Key",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "5953fbb5-5118-49d0-8dc6-e1172e1b851f",
             "sourceLineageTag": "Key",
             "summarizeBy": "none",
             "annotations": [
@@ -749,7 +703,6 @@
             "dataType": "double",
             "sourceColumn": "ThrottlingMin",
             "sourceProviderType": "float",
-            "lineageTag": "b7fbb042-4025-452c-845d-1e6b92a6f567",
             "sourceLineageTag": "ThrottlingMin",
             "summarizeBy": "sum",
             "annotations": [
@@ -769,7 +722,6 @@
             "sourceColumn": "count_failure_operations",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "86fc1f0c-3ae5-4070-801e-a1cff863558b",
             "sourceLineageTag": "count_failure_operations",
             "summarizeBy": "sum",
             "annotations": [
@@ -785,7 +737,6 @@
             "sourceColumn": "count_rejected_operations",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "83689b66-8a38-4b2b-8f7d-7a2cb6c9beab",
             "sourceLineageTag": "count_rejected_operations",
             "summarizeBy": "sum",
             "annotations": [
@@ -801,7 +752,6 @@
             "sourceColumn": "count_successful_operations",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "cd59ba92-cb72-43bd-8495-d713f35fdbfc",
             "sourceLineageTag": "count_successful_operations",
             "summarizeBy": "sum",
             "annotations": [
@@ -817,7 +767,6 @@
             "sourceColumn": "count_InProgress_operations",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "9a52de5b-3cb2-4370-b921-eb0f7624055f",
             "sourceLineageTag": "count_InProgress_operations",
             "summarizeBy": "sum",
             "annotations": [
@@ -833,7 +782,6 @@
             "sourceColumn": "count_cancelled_operations",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "cf200420-73ef-470d-8402-68e481a9b238",
             "sourceLineageTag": "count_cancelled_operations",
             "summarizeBy": "sum",
             "annotations": [
@@ -849,7 +797,6 @@
             "sourceColumn": "count_Invalid_operations",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "462dc4f2-c889-40f6-86cb-f11c241633bb",
             "sourceLineageTag": "count_Invalid_operations",
             "summarizeBy": "sum",
             "annotations": [
@@ -881,7 +828,6 @@
       },
       {
         "name": "throttling",
-        "lineageTag": "840eb093-1032-4f22-b2b3-94d8a775faec",
         "sourceLineageTag": "[dbo].[throttling]",
         "columns": [
           {
@@ -890,7 +836,6 @@
             "sourceColumn": "Date",
             "formatString": "General Date",
             "sourceProviderType": "datetime2",
-            "lineageTag": "d5ca9d51-97ce-4e01-8162-a0a20bad730a",
             "sourceLineageTag": "Date",
             "summarizeBy": "none",
             "annotations": [
@@ -906,7 +851,6 @@
             "sourceColumn": "Start_of_Hour",
             "formatString": "General Date",
             "sourceProviderType": "datetime2",
-            "lineageTag": "6d3d60f0-6f75-4a7a-bb60-bbaa002377c4",
             "sourceLineageTag": "Start_of_Hour",
             "summarizeBy": "none",
             "annotations": [
@@ -921,7 +865,6 @@
             "dataType": "double",
             "sourceColumn": "IntDelay",
             "sourceProviderType": "float",
-            "lineageTag": "c12cd002-5af0-489d-bb8a-8bf1bb7290ec",
             "sourceLineageTag": "IntDelay",
             "summarizeBy": "sum",
             "annotations": [
@@ -940,7 +883,6 @@
             "dataType": "double",
             "sourceColumn": "IntReject",
             "sourceProviderType": "float",
-            "lineageTag": "837ef63d-36aa-4481-84d3-af2c7bb03c75",
             "sourceLineageTag": "IntReject",
             "summarizeBy": "sum",
             "annotations": [
@@ -959,7 +901,6 @@
             "dataType": "double",
             "sourceColumn": "BackReject",
             "sourceProviderType": "float",
-            "lineageTag": "96abdbdf-c40f-4ebc-8d71-a91264472aab",
             "sourceLineageTag": "BackReject",
             "summarizeBy": "sum",
             "annotations": [
@@ -978,7 +919,6 @@
             "dataType": "string",
             "sourceColumn": "capacityId",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "1adab0f9-3c88-4084-9cc4-fe984a030125",
             "sourceLineageTag": "capacityId",
             "summarizeBy": "none",
             "annotations": [
@@ -1010,7 +950,6 @@
       },
       {
         "name": "measures_",
-        "lineageTag": "dfc748b6-19dd-431d-8df8-4c0905801d4b",
         "sourceLineageTag": "[dbo].[measures_]",
         "columns": [
           {
@@ -1019,7 +958,6 @@
             "sourceColumn": "Number",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "edf0f27f-1fc0-4112-8f9d-02b6dc78ab08",
             "sourceLineageTag": "Number",
             "summarizeBy": "sum",
             "annotations": [
@@ -1046,7 +984,6 @@
           {
             "name": "TotalCU",
             "expression": "SUM(usage[sum_CU])",
-            "lineageTag": "958ad6c5-9b0f-4191-946c-90cfaa0084fc",
             "changedProperties": [
               {
                 "property": "Name"
@@ -1063,7 +1000,6 @@
             "name": "MaxIntDelay",
             "expression": "MAX(throttling[IntDelay])/100",
             "formatString": "0.0%;-0.0%;0.0%",
-            "lineageTag": "70595fce-a5f5-4f5c-92e0-13768db205d3",
             "changedProperties": [
               {
                 "property": "Name"
@@ -1077,7 +1013,6 @@
             "name": "MaxIntRejection",
             "expression": "MAX(throttling[IntReject])/100",
             "formatString": "0.0%;-0.0%;0.0%",
-            "lineageTag": "f63a9ed4-5df8-4169-a635-53d70c37f2dc",
             "changedProperties": [
               {
                 "property": "Name"
@@ -1091,7 +1026,6 @@
             "name": "MaxBackRejection",
             "expression": "MAX(throttling[BackReject])/100",
             "formatString": "0.0%;-0.0%;0.0%",
-            "lineageTag": "e4004ab8-ebf1-4013-b896-bef043bbdc23",
             "changedProperties": [
               {
                 "property": "Name"
@@ -1110,7 +1044,6 @@
               "return IF(ISINSCOPE(datehour[DateHour]), DIVIDE(totCU, availCUHour), DIVIDE(totCU, availCUDay))"
             ],
             "formatString": "0.0%;-0.0%;0.0%",
-            "lineageTag": "35daa3c3-d479-4601-9306-a568aea5f8f3",
             "changedProperties": [
               {
                 "property": "Name"
@@ -1124,7 +1057,6 @@
             "name": "Workspaces",
             "expression": "CALCULATE(DISTINCTCOUNT(items[WorkspaceId]), TREATAS(VALUES(capacities[capacityId]), items[capacityId]))",
             "formatString": "#,0",
-            "lineageTag": "2f31ccf7-02f8-475f-b0c2-841122e62140",
             "changedProperties": [
               {
                 "property": "Name"
@@ -1138,7 +1070,6 @@
             "name": "ItemCount",
             "expression": "CALCULATE(COUNTROWS(items), TREATAS(VALUES(capacities[capacityId]), items[capacityId]))",
             "formatString": "#,0",
-            "lineageTag": "259c886f-fa47-4d5b-937b-21ab749045bf",
             "changedProperties": [
               {
                 "property": "Name"
@@ -1152,7 +1083,6 @@
             "name": "MaxUtilizedPct",
             "expression": "MAXX(SUMMARIZE(usage, datehour[DateHour], capacities[capacityId]), [UtilizedPct])",
             "formatString": "0.0%;-0.0%;0.0%",
-            "lineageTag": "e3b0bddc-2ede-4e04-8442-bbeb5da61fc9",
             "changedProperties": [
               {
                 "property": "Name"
@@ -1166,7 +1096,6 @@
             "name": "Capacities",
             "expression": "COUNTROWS(capacities)",
             "formatString": "0",
-            "lineageTag": "1966a73b-cc3d-4883-b370-af1d0eeafa06",
             "changedProperties": [
               {
                 "property": "Name"
@@ -1183,7 +1112,6 @@
       },
       {
         "name": "datehour",
-        "lineageTag": "baf190ea-14d8-445d-9a98-8d569736d823",
         "sourceLineageTag": "[dbo].[datehour]",
         "columns": [
           {
@@ -1192,7 +1120,6 @@
             "sourceColumn": "DateHour",
             "formatString": "General Date",
             "sourceProviderType": "datetime2",
-            "lineageTag": "b7f7a590-8873-45d7-b751-20a615968381",
             "sourceLineageTag": "DateHour",
             "summarizeBy": "none",
             "annotations": [
@@ -1208,7 +1135,6 @@
             "sourceColumn": "Hour",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "39bc9095-ba42-4547-889a-55454537c4a3",
             "sourceLineageTag": "Hour",
             "summarizeBy": "sum",
             "annotations": [
@@ -1224,7 +1150,6 @@
             "sourceColumn": "Year",
             "formatString": "0",
             "sourceProviderType": "int",
-            "lineageTag": "ea13cca6-e184-433c-8031-d3df2d56d725",
             "sourceLineageTag": "Year",
             "summarizeBy": "sum",
             "annotations": [
@@ -1240,7 +1165,6 @@
             "sourceColumn": "MonthNumber",
             "formatString": "0",
             "sourceProviderType": "int",
-            "lineageTag": "54329d08-721c-46e9-8d78-add58240871f",
             "sourceLineageTag": "MonthNumber",
             "summarizeBy": "sum",
             "annotations": [
@@ -1255,7 +1179,6 @@
             "dataType": "string",
             "sourceColumn": "Month",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "5a60bf07-0b14-4121-b6d8-500f31c2b781",
             "sourceLineageTag": "Month",
             "summarizeBy": "none",
             "annotations": [
@@ -1270,7 +1193,6 @@
             "dataType": "string",
             "sourceColumn": "MonthShort",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "367782d9-598f-4a60-a791-db37aa82280a",
             "sourceLineageTag": "MonthShort",
             "summarizeBy": "none",
             "annotations": [
@@ -1285,7 +1207,6 @@
             "dataType": "string",
             "sourceColumn": "Day",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "e03b55bc-766e-4f56-b5c1-9109a89eb446",
             "sourceLineageTag": "Day",
             "summarizeBy": "none",
             "annotations": [
@@ -1300,7 +1221,6 @@
             "dataType": "string",
             "sourceColumn": "DayShort",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "3397ef87-6b3d-4336-b44f-d671bb8d18e6",
             "sourceLineageTag": "DayShort",
             "summarizeBy": "none",
             "annotations": [
@@ -1316,7 +1236,6 @@
             "sourceColumn": "DayOfWeek",
             "formatString": "0",
             "sourceProviderType": "int",
-            "lineageTag": "4ef3e940-98a0-45ec-a446-a3d52c597db6",
             "sourceLineageTag": "DayOfWeek",
             "summarizeBy": "sum",
             "annotations": [
@@ -1332,7 +1251,6 @@
             "sourceColumn": "DayOfYear",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "6f238145-3390-4fac-be82-09291212475a",
             "sourceLineageTag": "DayOfYear",
             "summarizeBy": "sum",
             "annotations": [
@@ -1348,7 +1266,6 @@
             "sourceColumn": "WeekOfYear",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "bb5aa987-f5e7-4acd-9915-36327c0c57f7",
             "sourceLineageTag": "WeekOfYear",
             "summarizeBy": "sum",
             "annotations": [
@@ -1363,7 +1280,6 @@
             "dataType": "string",
             "sourceColumn": "YearQuarter",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "2c1aa7aa-5652-41e1-9772-751f2a6e5cbb",
             "sourceLineageTag": "YearQuarter",
             "summarizeBy": "none",
             "annotations": [
@@ -1378,7 +1294,6 @@
             "dataType": "string",
             "sourceColumn": "YearWeek",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "06eb5230-efae-4ff4-a9ff-2d88a32fd3ab",
             "sourceLineageTag": "YearWeek",
             "summarizeBy": "none",
             "annotations": [
@@ -1394,7 +1309,6 @@
             "sourceColumn": "EOM",
             "formatString": "General Date",
             "sourceProviderType": "datetime2",
-            "lineageTag": "cc8c5491-ac8b-4407-bb10-7f955f032d80",
             "sourceLineageTag": "EOM",
             "summarizeBy": "none",
             "annotations": [
@@ -1410,7 +1324,6 @@
             "sourceColumn": "EOQ",
             "formatString": "General Date",
             "sourceProviderType": "datetime2",
-            "lineageTag": "2af8c133-3a9b-4109-9a10-c40200382203",
             "sourceLineageTag": "EOQ",
             "summarizeBy": "none",
             "annotations": [
@@ -1426,7 +1339,6 @@
             "sourceColumn": "Date",
             "formatString": "General Date",
             "sourceProviderType": "datetime2",
-            "lineageTag": "16b03f86-8328-4ca6-946f-c7a66e85cc96",
             "sourceLineageTag": "Date",
             "summarizeBy": "none",
             "annotations": [
@@ -1442,7 +1354,6 @@
             "sourceColumn": "DaysFromToday",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "204e855a-2cdc-4d55-8bbd-88d2be1723a5",
             "sourceLineageTag": "DaysFromToday",
             "summarizeBy": "sum",
             "annotations": [
@@ -1458,7 +1369,6 @@
             "sourceColumn": "WeeksFromToday",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "fa2eaea9-de71-4922-861a-1e5526c5c25d",
             "sourceLineageTag": "WeeksFromToday",
             "summarizeBy": "sum",
             "annotations": [
@@ -1474,7 +1384,6 @@
             "sourceColumn": "MonthsFromToday",
             "formatString": "0",
             "sourceProviderType": "int",
-            "lineageTag": "ae7569c9-b674-4b98-b4e5-48a4fd89178d",
             "sourceLineageTag": "MonthsFromToday",
             "summarizeBy": "sum",
             "annotations": [
@@ -1490,7 +1399,6 @@
             "sourceColumn": "QtrsFromToday",
             "formatString": "0",
             "sourceProviderType": "bigint",
-            "lineageTag": "95b44075-4dfe-4a10-9371-10339f96dfcc",
             "sourceLineageTag": "QtrsFromToday",
             "summarizeBy": "sum",
             "annotations": [
@@ -1506,7 +1414,6 @@
             "sourceColumn": "YearsFromToday",
             "formatString": "0",
             "sourceProviderType": "int",
-            "lineageTag": "c1087e89-dfca-4381-bddd-bd3cbdff117c",
             "sourceLineageTag": "YearsFromToday",
             "summarizeBy": "sum",
             "annotations": [
@@ -1522,7 +1429,6 @@
             "sourceColumn": "WorkingDay",
             "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
             "sourceProviderType": "bit",
-            "lineageTag": "49b452a9-3952-4680-9c74-9874e7d7e968",
             "sourceLineageTag": "WorkingDay",
             "summarizeBy": "none",
             "annotations": [
@@ -1537,7 +1443,6 @@
             "dataType": "string",
             "sourceColumn": "MonthZWS",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "2055cbee-e5a0-47d4-b41b-87c1f301cbc8",
             "sourceLineageTag": "MonthZWS",
             "summarizeBy": "none",
             "annotations": [
@@ -1552,7 +1457,6 @@
             "dataType": "string",
             "sourceColumn": "DayZWS",
             "sourceProviderType": "varchar(8000)",
-            "lineageTag": "ead8ad8a-80e1-454b-b756-450ee86e02d0",
             "sourceLineageTag": "DayZWS",
             "summarizeBy": "none",
             "annotations": [
@@ -1647,7 +1551,6 @@
           "in",
           "    database"
         ],
-        "lineageTag": "249a64a3-0206-4bc0-a287-885fa20da561",
         "annotations": [
           {
             "name": "PBI_IncludeFutureArtifacts",
