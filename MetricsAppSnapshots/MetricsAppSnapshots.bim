@@ -1,5 +1,5 @@
 {
-  "name": "MetricsAppSnapshotsModel",
+  "name": "MetricsModel",
   "compatibilityLevel": 1604,
   "model": {
     "culture": "en-US",
