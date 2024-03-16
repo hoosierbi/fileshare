@@ -1,5 +1,6 @@
 {
-  "name": "MetricsModel",
+  "name": "MetricsAppSnapshots1",
+  "id": "86d32817-e094-4076-af9e-8d283075beed",
   "compatibilityLevel": 1604,
   "model": {
     "culture": "en-US",
@@ -1060,7 +1061,7 @@
             ]
           },
           {
-            "name": "MaxIntDelay",
+            "name": "MaxIntDel",
             "expression": "MAX(throttling[IntDelay])/100",
             "formatString": "0.0%;-0.0%;0.0%",
             "lineageTag": "70595fce-a5f5-4f5c-92e0-13768db205d3",
@@ -1074,7 +1075,7 @@
             ]
           },
           {
-            "name": "MaxIntRejection",
+            "name": "MaxIntRej",
             "expression": "MAX(throttling[IntReject])/100",
             "formatString": "0.0%;-0.0%;0.0%",
             "lineageTag": "f63a9ed4-5df8-4169-a635-53d70c37f2dc",
@@ -1088,7 +1089,7 @@
             ]
           },
           {
-            "name": "MaxBackRejection",
+            "name": "MaxBackRej",
             "expression": "MAX(throttling[BackReject])/100",
             "formatString": "0.0%;-0.0%;0.0%",
             "lineageTag": "e4004ab8-ebf1-4013-b896-bef043bbdc23",
@@ -1102,7 +1103,7 @@
             ]
           },
           {
-            "name": "UtilizedPct",
+            "name": "UtilPct",
             "expression": [
               "var totCU = [TotalCU]",
               "var availCUDay = SUMX(SUMMARIZE(usage, capacities[capacityId], capacities[CUperHour], datehour[Date]), capacities[CUperHour]*24)",
@@ -1149,8 +1150,8 @@
             ]
           },
           {
-            "name": "MaxUtilizedPct",
-            "expression": "MAXX(SUMMARIZE(usage, datehour[DateHour], capacities[capacityId]), [UtilizedPct])",
+            "name": "MaxUtilPct",
+            "expression": "MAXX(SUMMARIZE(usage, datehour[DateHour], capacities[capacityId]), [UtilPct])",
             "formatString": "0.0%;-0.0%;0.0%",
             "lineageTag": "e3b0bddc-2ede-4e04-8442-bbeb5da61fc9",
             "changedProperties": [
@@ -1167,6 +1168,17 @@
             "expression": "COUNTROWS(capacities)",
             "formatString": "0",
             "lineageTag": "1966a73b-cc3d-4883-b370-af1d0eeafa06",
+            "changedProperties": [
+              {
+                "property": "Name"
+              }
+            ]
+          },
+          {
+            "name": "MaxUsers",
+            "expression": "MAX(usage[count_users])",
+            "formatString": "0",
+            "lineageTag": "d9052437-0e8a-451d-ae7f-71a293d3742d",
             "changedProperties": [
               {
                 "property": "Name"
