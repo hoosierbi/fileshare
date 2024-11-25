@@ -1,3 +1,0 @@
-{"protocol":{"minReaderVersion":1,"minWriterVersion":2,"readerFeatures":null,"writerFeatures":null}}
-{"metaData":{"id":"3edc56ff-d838-4d26-8607-0a72fea8dff8","name":"delta","description":"","format":{"provider":"parquet","options":{}},"schemaString":"{\"type\":\"struct\",\"fields\":[{\"name\":\"Code\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}},{\"name\":\"Description\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}}]}","partitionColumns":[],"createdTime":1732313428380,"configuration":{}}}
-{"commitInfo":{"operation":"Write","engineInfo":"Microsoft.DI.Delta","additionalCommitInfo":null}}

@@ -1,3 +1,0 @@
-{"protocol":{"minReaderVersion":1,"minWriterVersion":2,"readerFeatures":null,"writerFeatures":null}}
-{"metaData":{"id":"8622b59b-a2c9-4fdf-853a-41603823af88","name":"delta","description":"","format":{"provider":"parquet","options":{}},"schemaString":"{\"type\":\"struct\",\"fields\":[{\"name\":\"Code\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}},{\"name\":\"AirportName\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}},{\"name\":\"City\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}},{\"name\":\"State\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}}]}","partitionColumns":[],"createdTime":1732313428163,"configuration":{}}}
-{"commitInfo":{"operation":"Write","engineInfo":"Microsoft.DI.Delta","additionalCommitInfo":null}}
